@@ -1,0 +1,23 @@
+# ── Core ──────────────────────────────────────────────────────────────────────
+asgiref==3.13.0
+Django==5.2.18
+sqlparse==0.6.0
+tzdata==2026.5
+
+# ── API REST & Auth ───────────────────────────────────────────────────────────
+djangorestframework==3.18.3
+djangorestframework_simplejwt==5.5.1
+PyJWT==2.15.1
+django-cors-headers==4.9.0
+
+# ── Configuration ─────────────────────────────────────────────────────────────
+python-dotenv==1.2.4
+dj-database-url==3.1.2
+
+# ── Production ────────────────────────────────────────────────────────────────
+whitenoise==6.12.0
+brotli==1.2.1
+gunicorn==26.2.0
+
+# ── PostgreSQL (décommenter en production) ────────────────────────────────────
+# psycopg2==2.9.10

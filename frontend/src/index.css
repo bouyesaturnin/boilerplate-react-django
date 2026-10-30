@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family-sans: Inter, system-ui, sans-serif;
+
+  /* Couleur primaire — remplacez ces valeurs pour rebrander */
+  --color-primary-50:  oklch(96.1% 0.012 264.4);
+  --color-primary-100: oklch(92.8% 0.025 261.7);
+  --color-primary-200: oklch(85.6% 0.053 263.2);
+  --color-primary-300: oklch(76.5% 0.099 263.3);
+  --color-primary-400: oklch(66.5% 0.149 264.1);
+  --color-primary-500: oklch(58.4% 0.189 264.4);
+  --color-primary-600: oklch(51%   0.222 264.1);
+  --color-primary-700: oklch(43.7% 0.203 264.8);
+  --color-primary-800: oklch(37.7% 0.165 265.5);
+  --color-primary-900: oklch(31.8% 0.126 265.9);
+}
+
+html {
+  font-family: var(--font-family-sans);
+}

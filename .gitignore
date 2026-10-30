@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+*.db
+media/
+staticfiles/
+static_root/
+
+# Variables d'environnement — NE JAMAIS VERSIONNER
+# Couvre aussi les copies et variantes (.env.backup, .env.production, prod.env...)
+.env
+.env.local
+.env.*.local
+.env.*
+*.env
+*.env.bak
+# Exception : les modèles sans valeurs réelles restent versionnés (doit rester après les règles ci-dessus)
+!.env.example
+
+# Clés et certificats privés
+*.key
+*.pem
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npmrc
+
+# Vite / build frontend
+frontend/dist/
+frontend/.vite/
+
+# Vercel CLI (identifiants de projet locaux)
+.vercel/
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Tests
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS Windows
+desktop.ini
